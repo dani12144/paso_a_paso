@@ -1,0 +1,37 @@
+Informe sobre el proyecto: Calculadora de nota final
+
+Introducción
+En este trabajo realicé una página web que calcula cuánto necesita sacar un estudiante en el tercer corte (que vale el 34%) para poder alcanzar una nota definitiva de 3.0.
+Para hacerlo utilicé los tres lenguajes básicos del desarrollo web: HTML, CSS y JavaScript, que al combinarse hacen que la página tenga estructura, diseño y funcionalidad.
+
+Desarrollo del proyecto
+
+1. HTML: la estructura
+El HTML fue la parte donde armé toda la estructura de la página.
+Ahí puse los espacios donde se escriben las notas del primer y segundo corte, el botón que sirve para hacer el cálculo y el lugar donde se muestra el resultado.
+También agregué el título principal y conecté este archivo con los de CSS (para los estilos) y JavaScript (para la lógica).
+En pocas palabras, el HTML es el “esqueleto” del proyecto: organiza los elementos que el usuario ve y usa.
+
+2. CSS: el diseño
+El CSS fue el encargado de darle estilo y presentación a la página.
+Ahí le di color al fondo, centré el contenido, ajusté los márgenes, cambié la fuente y diseñé el botón para que tuviera un efecto visual al pasar el cursor.
+Gracias al CSS, la calculadora se ve más ordenada, limpia y agradable visualmente, en lugar de parecer una página básica sin formato.
+
+3. JavaScript: la lógica
+El JavaScript fue donde programé la parte funcional del proyecto.
+Este código se encarga de tomar las notas que el usuario escribe en los campos del primer y segundo corte, y calcular cuánto se necesita en el tercer corte (34%) para alcanzar una nota final de 3.0.
+
+El programa tiene varias validaciones importantes para que funcione correctamente:
+- No deja calcular si falta una nota por escribir, mostrando un mensaje de advertencia.
+- No permite números negativos, ya que no tendría sentido en una calificación.
+- Si la nota necesaria es mayor a 5.0, muestra que no es posible alcanzar el promedio.
+- Si la nota necesaria es menor o igual a 0, significa que el estudiante ya tiene asegurado el 3.0.
+- En los demás casos, indica exactamente qué nota se necesita sacar en el tercer corte.
+
+Gracias a estas condiciones, la aplicación no solo calcula bien, sino que también evita errores de entrada y muestra mensajes claros al usuario.
+
+Conclusión
+Con este proyecto aprendí a usar de forma práctica HTML, CSS y JavaScript para crear una página web funcional y con buen diseño.
+El HTML se encargó de la estructura, el CSS del aspecto visual y el JavaScript de toda la lógica del cálculo.
+Además, implementé validaciones que hacen el programa más realista y confiable, como impedir que se dejen notas vacías o que se escriban valores negativos.
+En general, fue una experiencia útil para entender cómo se conectan los tres lenguajes y cómo juntos pueden formar una aplicación sencilla pero completa.
