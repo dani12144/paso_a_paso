@@ -13,12 +13,12 @@
     <h2>Calculadora de Nota Final (3 Cortes)</h2>
     <p>Ingresa tus notas:</p>
 
-    <input type="number" id="nota1" placeholder="Primer corte (33%)" step="0.01" min="0" max="5">
-    <input type="number" id="nota2" placeholder="Segundo corte (33%)" step="0.01" min="0" max="5">
+    <input type="number" id="nota1" placeholder="Primer corte (33%)" step="0.01" min="0" max="5" oninput="verificarNotas()">
+    <input type="number" id="nota2" placeholder="Segundo corte (33%)" step="0.01" min="0" max="5" oninput="verificarNotas()">
 
-    <button onclick="calcular()">Calcular</button>
+  <button id="calcBtn" onclick="calcular()">Calcular</button>
 
-    <div id="resultado"></div>
+    <div id="resultado2"></div>
   </div>
 
   <!-- Enlace al archivo JavaScript -->
